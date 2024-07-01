@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página mobile first</title>
-  <link rel="stylesheet" href="./css/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico de Doenças</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <body>
-  <header>
-    <h1>Título da página</h1>
-  </header>
-
-  <main>
-    <p>Conteúdo da página.</p>
-  </main>
-
-  <footer>
-    <p>Rodapé da página.</p>
-  </footer>
+    <header>
+        <h1>Diagnóstico de Doenças</h1>
+    </header>
+    <main>
+        <form id="sintomas-form">
+            <label for="sintomas">Insira seus sintomas:</label>
+            <textarea id="sintomas" name="sintomas" rows="4" cols="50" placeholder="Separe os sintomas por vírgula"></textarea>
+            <button type="submit">Diagnosticar</button>
+        </form>
+        <div id="resultado"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Diagnóstico de Doenças</p>
+    </footer>
+    <script src="./js/script.js"></script>
 </body>
-
 </html>
