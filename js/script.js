@@ -1,4 +1,3 @@
-// script.js
 document.getElementById('sintomas-form').addEventListener('submit', function(event) {
     event.preventDefault();
     const sintomasInput = document.getElementById('sintomas').value;
